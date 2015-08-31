@@ -30,3 +30,7 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# Exclude IntelliJ .iml files
+# If you need to remove existing .iml files -> git ls-files | grep '\.iml$' | xargs git rm
+*.iml
